@@ -1,0 +1,9 @@
+  @Test
+  public void test02(){
+    //OutOfMemoryError
+    //
+    int[] arr = new int[Integer.MAX_VALUE];
+  }
+  @Test
+  public void test03(){
+    //OutOfMemoryError
