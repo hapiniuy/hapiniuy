@@ -1,0 +1,5 @@
+   StringBuilder s = new StringBuilder();
+    while(true){
+      s.append("atguigu");
+    }
+  }
