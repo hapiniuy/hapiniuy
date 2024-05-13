@@ -1,0 +1,7 @@
+
+Button1 = tkr.Button(music_player, width=5, height=3, font="Helvetica 12 bold", text="播放", command=play, bg="blue", fg="white")
+Button2 = tkr.Button(music_player, width=5, height=3, font="Helvetica 12 bold", text="停止", command=stop, bg="red", fg="white")
+Button3 = tkr.Button(music_player, width=5, height=3, font="Helvetica 12 bold", text="暂停", command=pause, bg="purple", fg="white")
+Button4 = tkr.Button(music_player, width=5, height=3, font="Helvetica 12 bold", text="取消暂停", command=unpause, bg="orange", fg="white")
+
+var = tkr.StringVar()
