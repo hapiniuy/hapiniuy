@@ -1,0 +1,10 @@
+		chessBoard[row][col] = 'o';
+		break;
+	}
+}
+int isFull(char chessBoard[MAX_ROW][MAX_COL]) {
+	for (int row = 0; row < MAX_ROW; row++) {
+		for (int col = 0; col < MAX_COL; col++) {
+			if (chessBoard[row][col] == ' ') {
+				return 0;
+			}
