@@ -1,0 +1,11 @@
+        if (templist->next != nullptr)
+            templist = templist->next;
+        else
+            break;
+    }
+    return listnode;
+}
+ 
+int collision_detection(nodeptr_t bulletlist, nodeptr_t targetlist)
+{
+    int grade
