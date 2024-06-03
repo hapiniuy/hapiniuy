@@ -1,0 +1,6 @@
+    for(int i=0; i<des_data_rl; i++)
+        dataL32_table[i] = data64_table[i];
+    for(int i=0; i<des_data_rl; i++)
+        dataR32_table[i] = data64_table[i+32];
+            row = extend48_table[j+0]*2 + extend48_table[j+5]*1;
+            col = extend48_table[j+1]*8 + extend48_table[j+2]*4 + extend48_table[j+3]*2 + extend48_table[j+4]*1;
